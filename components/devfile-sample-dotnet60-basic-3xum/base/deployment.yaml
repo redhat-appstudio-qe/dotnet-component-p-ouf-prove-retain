@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-3xum
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/rsoaresd_org/spi-demos-edfa-tenant/dotnet-component/devfile-sample-dotnet60-basic-3xum@sha256:3afde7ba781e8ecd2e831fae2f0ca23c819d02285922d219950f2147700a1f8c
         imagePullPolicy: Always
         name: main
         ports:
